@@ -27,12 +27,14 @@ package com.bstack.cellmanager.model
 		public function setAppWidth(value:Number):void
 		{
 			_appWidth = value;
+			trace("appWidth:",_appWidth);
 			//TODO: Dispatch ApplicationStateEvent
 		}
 		
 		public function setAppHeight(value:Number):void
 		{
 			_appHeight = value;
+			trace("appHeight:",_appHeight);
 			//TODO: Dispath ApplicationStateEvent
 		}
 	}

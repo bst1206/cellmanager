@@ -9,7 +9,7 @@ package com.bstack.cellmanager
 	import com.bstack.cellmanager.events.applicationState.UpdateAppHeightCommandEvent;
 	import com.bstack.cellmanager.events.applicationState.UpdateAppWidthCommandEvent;
 	import com.bstack.cellmanager.model.ApplicationStateModel;
-	import com.bstack.cellmanager.view.ApplicationMediator;
+	import com.bstack.cellmanager.view.mediator.ApplicationMediator;
 	
 	import flash.display.DisplayObjectContainer;
 	
